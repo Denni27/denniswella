@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dennis Wella | ICT & Systems Engineer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #020617, #020617 40%, #020617);
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: #fff;
+      padding: 4rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(56,189,248,0.2);
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2.4rem;
+      background: linear-gradient(to right, #38bdf8, #22d3ee);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.85;
+    }
+    nav {
+      background: rgba(2,6,23,0.85);
+      backdrop-filter: blur(8px);
+      padding: 0.8rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid rgba(56,189,248,0.15);
+    }
+    nav a {
+      color: #cbd5f5;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      left: 0;
+      bottom: -6px;
+      background: linear-gradient(to right, #38bdf8, #22d3ee);
+      transition: width 0.3s ease;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 4rem 1rem;
+    }
+    h2 {
+      color: #e5e7eb;
+      margin-bottom: 1.5rem;
+      font-size: 1.6rem;
+    }
+    .card {
+      background: rgba(15,23,42,0.9);
+      padding: 1.8rem;
+      margin-bottom: 1.8rem;
+      border-radius: 14px;
+      border: 1px solid rgba(56,189,248,0.15);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.55);
+      border: 1px solid rgba(56,189,248,0.35);
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.6rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: rgba(56,189,248,0.15);
+      color: #7dd3fc;
+      padding: 6px 14px;
+      margin: 6px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      border: 1px solid rgba(56,189,248,0.25);
+      transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+    }
+    .skills span:hover {
+      transform: translateY(-3px) scale(1.05);
+      background: rgba(56,189,248,0.25);
+      color: #e0f2fe;
+    }
+    footer {
+      background: #020617;
+      color: #94a3b8;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      margin-top: 3rem;
+      border-top: 1px solid rgba(56,189,248,0.15);
+    }
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #7dd3fc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dennis Wella</h1>
+  <p>ICT Graduate | Network Engineering | Systems & Cybersecurity</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am an ICT graduate specializing in Network Engineering with hands-on experience
+      in Linux system administration, cloud computing, and cybersecurity. I currently
+      work as a Systems Support Engineer (Intern) at Idias Corporation, supporting
+      enterprise systems such as OpenLMIS, CasePlus, and MBS MIS.
+    </p>
+    <p>
+      My interests lie in systems support, health information systems, network security,
+      and building reliable IT infrastructure that supports real-world operations.
+    </p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="card">
+    <h3>Systems Support Engineer (Intern) – Idias Corporation</h3>
+    <p><strong>2025 – Present | Lilongwe, Malawi</strong></p>
+    <ul>
+      <li>Support and maintain OpenLMIS, CasePlus, MBS MIS, and UniSoft systems</li>
+      <li>Conduct nationwide facility support visits and user mentorship</li>
+      <li>Present systems during User Acceptance Testing (UAT)</li>
+      <li>Document configurations, issues, and solutions</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>IT Intern – Smart Applications International</h3>
+    <p><strong>2023 | Lilongwe, Malawi</strong></p>
+    <ul>
+      <li>Deployed Smart Health and SmartLink hospital systems</li>
+      <li>Installed and maintained LAN infrastructure</li>
+      <li>Trained hospital staff and provided on-site support</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <h3 style="margin-bottom:1.2rem; color:#7dd3fc;">Cybersecurity & Data Projects</h3>
+
+  <div class="card">
+    <h3>Intrusion Detection System (Machine Learning)</h3>
+    <p>
+      Developed a real-time intrusion detection system using Python and
+      Scikit-learn to analyze network traffic and detect malicious activity.
+    </p>
+    <ul>
+      <li>90%+ detection accuracy in simulated environments</li>
+      <li>Packet capture and feature extraction from live traffic</li>
+    </ul>
+    <div class="skills">
+      <span>Python</span>
+      <span>Machine Learning</span>
+      <span>Cybersecurity</span>
+      <span>Network Traffic</span>
+      <span>Wireshark</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Sign Language Recognition System</h3>
+    <p>
+      Built a Python-based system to recognize and interpret basic sign
+      language gestures, focusing on accessibility and assistive technology.
+    </p>
+    <div class="skills">
+      <span>Python</span>
+      <span>Computer Vision</span>
+      <span>Assistive Technology</span>
+      <span>Machine Learning</span>
+    </div>
+  </div>
+
+  <h3 style="margin:2.5rem 0 1.2rem; color:#7dd3fc;">Software Development Projects</h3>
+
+  <div class="card">
+    <h3>Employee Attendance Management System</h3>
+    <p>
+      Developed a Java-based desktop application to manage employee attendance,
+      generate reports, and improve record accuracy for organizations.
+    </p>
+    <div class="skills">
+      <span>Java</span>
+      <span>OOP</span>
+      <span>Desktop Application</span>
+      <span>System Design</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Classroom Interaction System (Group Project)</h3>
+    <p>
+      Contributed to a PHP-based group project designed to enhance classroom
+      engagement through live polls, assignments, and discussion features.
+    </p>
+    <div class="skills">
+      <span>PHP</span>
+      <span>MySQL</span>
+      <span>Web Development</span>
+      <span>Team Collaboration</span>
+    </div>
+  </div>
+
+  <h3 style="margin:2.5rem 0 1.2rem; color:#7dd3fc;">Embedded Systems & Hardware</h3>
+
+  <div class="card">
+    <h3>RFID-Based Gate Access System</h3>
+    <p>
+      Designed and implemented an Arduino-based access control system using RFID
+      cards to automatically open and secure a gate.
+    </p>
+    <div class="skills">
+      <span>Arduino</span>
+      <span>RFID</span>
+      <span>Embedded Systems</span>
+      <span>Hardware Integration</span>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="card">
+    <h3>ISC² Certified in Cybersecurity (CC)</h3>
+    <p>
+      Foundational certification validating knowledge of core cybersecurity
+      principles including risk management, access control, network security,
+      security operations, and incident response.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Google Cybersecurity Professional Certificate</h3>
+    <p>
+      Comprehensive training covering cybersecurity fundamentals, Linux,
+      SQL, Python, SIEM tools, threat detection, and incident response,
+      with practical labs and real-world scenarios.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Linux Administration</span>
+    <span>Windows Server</span>
+    <span>Networking (LAN/WAN)</span>
+    <span>Docker</span>
+    <span>Python</span>
+    <span>PHP</span>
+    <span>Java</span>
+    <span>MySQL</span>
+    <span>Cybersecurity</span>
+    <span>OpenLMIS Support</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:welladennis@gmail.com">welladennis@gmail.com</a></p>
+    <p>Phone: +265 880 033 883</p>
+    <p>Location: Lilongwe, Malawi</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Dennis Wella | Built with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
